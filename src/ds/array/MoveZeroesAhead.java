@@ -10,7 +10,7 @@ package ds.array;
 public class MoveZeroesAhead {
 
 	public static void main(String[] args) {
-      int[] num = {0,1,3,0,6,0,9,10,0};
+      int[] num = {0,1,3,0,6,0,9,10,0,9};
       
      num = moveZeroesAhead(num);
 	 for (int i=0;i<num.length;i++)
